@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+      "open-skills": {
+      "command": "/path/to/your/python",
+      "args": [
+        "/path/to/open-skills/examples/claude_desktop/mcpproxy.py"
+      ]
+    },
+    "filesystem": {
+      "command": "/path/to/your/node",
+      "args": [
+        "/path/to/mcp/filesystem/server",
+        "/path/to/workspace1",
+        "/path/to/workspace2"
+      ]
+    }
+  }
+}

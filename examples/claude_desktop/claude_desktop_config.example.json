@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+      "open-skills": {
+      "command": "/path/to/your/python",
+      "args": [
+        "/path/to/open-skills/examples/claude_desktop/mcpproxy.py"
+      ]
+    }
+  }
+}
