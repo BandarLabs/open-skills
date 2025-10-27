@@ -16,10 +16,7 @@ Anthropic recently announced [Skills for Claude](https://www.anthropic.com/news/
 
 Watch Open-Skills in action with Gemini CLI:
 
-<video src="demo-gemini.mp4" controls width="100%">
-  <source src="demo-gemini.mp4" type="video/mp4">
-  Your browser does not support the video tag. <a href="demo-gemini.mp4">Download the demo video</a>.
-</video>
+![Open-Skills Demo with Gemini CLI](demo-gemini.gif)
 
 ## Why Run Skills Locally?
 
