@@ -29,7 +29,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize the MCP server with a descriptive name for the toolset
-mcp = FastMCP("CodeRunner")
+mcp = FastMCP("Open-Skills")
 
 # Kernel pool configuration
 MAX_KERNELS = 5
@@ -567,7 +567,7 @@ async def _parse_skill_frontmatter(skill_md_path):
 @mcp.tool()
 async def list_skills() -> str:
     """
-    Lists all available skills in the CodeRunner container.
+    Lists all available skills in the Open-Skills container.
 
     Returns a list of available skills organized by category (public/user).
     Public skills are built into the container, while user skills are added by users.

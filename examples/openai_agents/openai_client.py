@@ -35,7 +35,7 @@ def resolve_with_system_dns(hostname):
 
 
 async def main():
-    hostname = "coderunner.local"
+    hostname = "open-skills.local"
     address = resolve_with_system_dns(hostname)
     async with MCPServerStreamableHttp(
         name="SSE Python Server",

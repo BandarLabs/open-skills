@@ -40,10 +40,10 @@ container rm buildkit
 container build --tag os --file Dockerfile .
 
 # Tag the newly built container
-container images tag os bandarlabs/open-skills
+container image tag os instavm/open-skills
 
 # Push the image to the registry
-container images push bandarlabs/open-skills
+container image push instavm/open-skills
 ```
 
 </details>

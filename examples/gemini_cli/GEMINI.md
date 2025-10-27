@@ -1,8 +1,8 @@
 We are currently on macbook, and whenever required we use tool to execute codes (in a jupyter like server). the code is executed in a container (you wouldn't notice but just know this).
 
-The paths on local machine is ~/.coderunner/assets/skills/user is mapped to /app/uploads/skills/user inside container.
+The paths on local machine is ~/.open-skills/assets/skills/user is mapped to /app/uploads/skills/user inside container.
 
-~/.coderunner/assets/outputs (in the host machine) is mapped to /app/uploads/outputs inside conatiner. This is where user will puts their files they want to edit like some png, pdf, txt etc. You should also use it to output your artifacts generated.
+~/.open-skills/assets/outputs (in the host machine) is mapped to /app/uploads/outputs inside conatiner. This is where user will puts their files they want to edit like some png, pdf, txt etc. You should also use it to output your artifacts generated.
 
 So that will help whenever we need a file inside a container to work on it via the execute code tool.
 

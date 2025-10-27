@@ -6,15 +6,24 @@
 
 # Run Claude Skills Locally on Your Mac (No Cloud Upload Required)
 
-Anthropic recently announced [Skills for Claude](https://www.anthropic.com/news/skills) - reusable folders with instructions, scripts, and resources that make Claude better at specialized tasks. This MCP server lets you run these skills **entirely on your local machine** in a sandboxed environment.
+Anthropic recently announced [Skills for Claude](https://www.anthropic.com/news/skills) - reusable folders with instructions, scripts, and resources that make Claude better at specialized tasks. This tool lets you run these skills **entirely on your local machine** in a sandboxed environment.
 
-**What this means:** Claude can now process your files (documents, spreadsheets, presentations, images) using these specialized skills while keeping all data on your Mac. No uploads, complete privacy.
+**What this means:** You can now process your files (documents, spreadsheets, presentations, images) using these specialized skills while keeping all data on your Mac. No uploads, complete privacy.
 
-> This MCP server executes AI-generated code in a truly isolated sandboxed environment on your Mac using Apple's native containers.
+> This tool executes AI-generated code in a truly isolated sandboxed environment on your Mac using Apple's native containers.
+
+## Demo
+
+Watch Open-Skills in action with Gemini CLI:
+
+<video src="demo-gemini.mp4" controls width="100%">
+  <source src="demo-gemini.mp4" type="video/mp4">
+  Your browser does not support the video tag. <a href="demo-gemini.mp4">Download the demo video</a>.
+</video>
 
 ## Why Run Skills Locally?
 
-- **Privacy:** Process sensitive documents, financial data, or proprietary files without cloud upload
+- **Privacy:** Process sensitive documents, financial data
 - **Full Control:** Skills execute in an isolated container with VM-level isolation
 - **Compatibility:** Works with Claude Desktop, Gemini CLI, Qwen CLI, or any MCP-compatible tool
 - **Extensibility:** Import Anthropic's official skills or create your own custom skills
@@ -83,7 +92,7 @@ Edit `~/.gemini/settings.json`:
   "selectedAuthType": "oauth-personal",
   "mcpServers": {
     "open-skills": {
-      "httpUrl": "http://coderunner.local:8222/mcp"
+      "httpUrl": "http://open-skills.local:8222/mcp"
     }
   }
 }

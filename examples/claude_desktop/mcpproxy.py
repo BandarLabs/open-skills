@@ -10,7 +10,7 @@ def resolve_with_system_dns(hostname):
         print(f"Error resolving {hostname}: {e}")
         return None
 
-hostname = "coderunner.local"
+hostname = "open-skills.local"
 address = resolve_with_system_dns(hostname)
 # Create a proxy directly from a config dictionary
 config = {

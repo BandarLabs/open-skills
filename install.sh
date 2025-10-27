@@ -63,8 +63,8 @@ echo "Starting the Sandbox Container..."
 container system start
 
 
-echo "Pulling the latest image: bandarlabs/open-skills"
-container image pull bandarlabs/open-skills
+echo "Pulling the latest image: instavm/open-skills"
+container image pull instavm/open-skills
 
 echo "→ Ensuring open-skills assets directories…"
 ASSETS_SRC="$HOME/.open-skills/assets"
@@ -72,7 +72,7 @@ mkdir -p "$ASSETS_SRC/skills/user"
 mkdir -p "$ASSETS_SRC/outputs"
 
 # Run the command to start the sandbox container
-echo "Running: container run --name open-skills --detach --rm --cpus 8 --memory 4g bandarlabs/open-skills"
+echo "Running: container run --name open-skills --detach --rm --cpus 8 --memory 4g instavm/open-skills"
 container run \
   --volume "$ASSETS_SRC/skills/user:/app/uploads/skills/user" \
   --volume "$ASSETS_SRC/outputs:/app/uploads/outputs" \
@@ -81,6 +81,6 @@ container run \
   --rm \
   --cpus 8 \
   --memory 4g \
-  bandarlabs/open-skills
+  instavm/open-skills
 
 echo "✅ Setup complete. MCP server is available at http://open-skills.local:8222/mcp"
