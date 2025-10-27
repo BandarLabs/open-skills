@@ -4,14 +4,14 @@
 [![License](http://img.shields.io/:license-Apache%202.0-green.svg?style=flat)](https://github.com/BandarLabs/open-skills/blob/master/LICENSE)
 </div>
 
-
+```
    ___  ____  _____ _   _     ____  _  _____ _     _     ____
   / _ \|  _ \| ____| \ | |   / ___|| |/ /_ _| |   | |   / ___|
  | | | | |_) |  _| |  \| |   \___ \| ' / | || |   | |   \___ \
  | |_| |  __/| |___| |\  |    ___) | . \ | || |___| |___ ___) |
   \___/|_|   |_____|_| \_|   |____/|_|\_\___|_____|_____|____/
 
-
+```
 
 
 # OpenSkills: Run Claude Skills Locally on Your Mac
