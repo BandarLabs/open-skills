@@ -105,7 +105,7 @@ Edit `~/.gemini/settings.json`:
 }
 ```
 
-For system instructions, replace `~/.gemini/GEMINI.md` with [GEMINI.md](examples/gemini/GEMINI.md)
+For system instructions, replace `~/.gemini/GEMINI.md` with [GEMINI.md](examples/gemini_cli/GEMINI.md)
 
 ### Option 3: Python OpenAI Agents
 
