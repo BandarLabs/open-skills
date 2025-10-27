@@ -4,7 +4,7 @@
 [![License](http://img.shields.io/:license-Apache%202.0-green.svg?style=flat)](https://github.com/BandarLabs/open-skills/blob/master/LICENSE)
 </div>
 
-# Run Claude Skills Locally on Your Mac (No Cloud Upload Required)
+# OpenSkills: Run Claude Skills Locally on Your Mac
 
 Anthropic recently announced [Skills for Claude](https://www.anthropic.com/news/skills) - reusable folders with instructions, scripts, and resources that make Claude better at specialized tasks. This tool lets you run these skills **entirely on your local machine** in a sandboxed environment.
 
