@@ -5,11 +5,11 @@
 </div>
 
 ```
-                    ___  ____  _____ _   _     ____  _  _____ _     _     ____
-                   / _ \|  _ \| ____| \ | |   / ___|| |/ /_ _| |   | |   / ___|
-                  | | | | |_) |  _| |  \| |   \___ \| ' / | || |   | |   \___ \
-                  | |_| |  __/| |___| |\  |    ___) | . \ | || |___| |___ ___) |
-                   \___/|_|   |_____|_| \_|   |____/|_|\_\___|_____|_____|____/
+    ___  ____  _____ _   _     ____  _  _____ _     _     ____
+   / _ \|  _ \| ____| \ | |   / ___|| |/ /_ _| |   | |   / ___|
+  | | | | |_) |  _| |  \| |   \___ \| ' / | || |   | |   \___ \
+  | |_| |  __/| |___| |\  |    ___) | . \ | || |___| |___ ___) |
+   \___/|_|   |_____|_| \_|   |____/|_|\_\___|_____|_____|____/
 
 ```
 
@@ -43,7 +43,7 @@ Watch Open-Skills in action with Gemini CLI:
 git clone https://github.com/BandarLabs/open-skills.git
 cd open-skills
 chmod +x install.sh
-sudo ./install.sh
+./install.sh
 ```
 
 Installation takes ~2 minutes. The MCP server will be available at `http://open-skills.local:8222/mcp`
