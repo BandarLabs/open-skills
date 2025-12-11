@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/bandarlabs-open-skills-badge.png)](https://mseep.ai/app/bandarlabs-open-skills)
+
 <div align="center">
 
 [![Start](https://img.shields.io/github/stars/BandarLabs/open-skills?color=yellow&style=flat&label=%E2%AD%90%20stars)](https://github.com/BandarLabs/open-skills/stargazers)
